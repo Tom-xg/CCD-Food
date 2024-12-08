@@ -1,0 +1,154 @@
+@media screen and (max-width: 1200px) {
+  /*Custom Css*/
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font: 20px;
+  }
+
+  p,
+  a {
+    font-size: 14px;
+  }
+  .main-btn {
+    padding: 0.5rem 0.9375rem;
+  }
+  .warpper {
+    padding-top: 68px;
+    padding-bottom: 52px;
+  }
+  /*Navbar Section*/
+  .nav-warp .navbar-brand img {
+    width: 100px;
+  }
+  .nav-warp .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+  /*Services Section*/
+  .service-section .service-cards {
+    margin-top: 70px;
+  }
+  .service-section .card {
+    padding: 55px 0 0;
+  }
+  .service-section .card img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /*Custom Css*/
+  h4 {
+    font-size: 17px;
+  }
+  p,
+  a {
+    font-size: 12px;
+  }
+
+  /*Navbar Section*/
+  .header-top {
+    display: none;
+  }
+  .navbar .navbar-toggler {
+    color: var(--text-white);
+  }
+  .navbar .main-btn {
+    margin: 10px;
+  }
+  .nav-warp {
+    text-align: center;
+    background-color: var(--black-color);
+  }
+  .nav-warp .nav-link {
+    line-height: 30px;
+  }
+  /*Top Banner*/
+  .top-banner {
+    padding: 102px 0 70px;
+  }
+  /*About Us Section*/
+  .about-section {
+    text-align: center;
+  }
+  .about-section span:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-content {
+    text-align: center;
+  }
+  /* Fratures Section*/
+  .feature-sec .card .price {
+    font-size: 18px;
+  }
+  /* Newsletter Section*/
+  .newsletter-sec .form-group input {
+    height: 3.2857rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /*Custom Css*/
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p,
+  a {
+    font-size: 14px;
+  }
+  span {
+    font-size: 14px;
+  }
+  .main-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .warpper {
+    padding-top: 52px;
+    padding-bottom: 36px;
+  }
+  /*About Us Section*/
+  .about-content {
+    text-align: center;
+  }
+  /*Services Section*/
+  .service-section .card {
+    margin-bottom: 40px;
+  }
+  /* Fratures Section*/
+  .feature-sec .card .price {
+    font-size: 14px;
+  }
+  /* App Section*/
+  .download-app-btn img {
+    width: 100%;
+    max-width: 8rem;
+  }
+  /*Footer Section*/
+  .footer .footer-link,
+  .footer a {
+    padding: 0.3rem 0.7rem;
+  }
+  .footer a {
+    padding: 0 0.5rem;
+  }
+}
